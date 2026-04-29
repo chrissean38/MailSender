@@ -1,0 +1,36 @@
+@import 'tailwindcss';
+@import 'react-quill/dist/quill.snow.css';
+@import './colors';
+
+:root {
+  --foreground-rgb: 17, 24, 39;
+  --background-start-rgb: 249, 250, 251;
+  --background-end-rgb: 243, 244, 246;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom, var(--background-start-rgb), var(--background-end-rgb));
+}
+
+.email-composer .ql-toolbar {
+  border: 0;
+  border-bottom: 1px solid #cbd5e1;
+  background: #f8fafc;
+}
+
+.email-composer .ql-container {
+  min-height: 520px;
+  border: 0;
+  font-size: 15px;
+}
+
+.email-composer .ql-editor {
+  min-height: 520px;
+  padding: 20px;
+}
+
+.email-composer .ql-editor img {
+  max-width: 100%;
+  height: auto;
+}

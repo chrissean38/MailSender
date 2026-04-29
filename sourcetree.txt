@@ -1,0 +1,8 @@
+src/app/api/campaigns/route.ts
+src/app/api/campaigns/[id]/send/route.ts
+src/app/api/contacts/import/route.ts
+src/app/api/suppression/route.ts
+src/app/api/ses-webhook/route.ts
+src/app/api/unsubscribe/route.ts
+src/app/api/track/open/route.ts
+src/app/api/track/click/route.ts

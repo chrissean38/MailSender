@@ -1,0 +1,1 @@
+/* Tailwind should be configured in next.config.js */
